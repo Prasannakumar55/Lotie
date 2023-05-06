@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+      
+        .blue{
+            width: 500px;
+            position: absolute;
+            top: 25px;
+            animation-name: blues;
+            animation-duration: 2s;
+            animation-delay: 1s;
+        }
+        @keyframes blues{
+            0%{
+                position: absolute;
+                left: -110px;
+            }
+            100%{
+                position: absolute;
+                left: 8px;
+            }
+        }
+        .yellow{
+            width: 500px;
+            animation-name: yellows;
+            animation-duration: 2s;
+            animation-delay: 1s;
+        }
+        @keyframes yellows{
+            0%{
+                position: absolute;
+                left: 110px;
+            }
+            100%{
+                position: absolute;
+                left: 8px;
+            }
+        }
+        .dot{
+            width: 100px;
+            width: 500px;
+            position: absolute;
+            left: 8px;
+            animation-name: dots;
+            animation-duration: 2s;
+            animation-delay: 1s;
+        }
+        
+        @keyframes dots{
+            0%{
+                position: absolute;
+                top: -100px;
+                 
+            }
+            100%{
+                position: absolute;
+                top: 26px;
+                
+            }
+        }
+        .text{
+            width: 300px;
+            position: absolute;
+            left: 200px;
+            top: 90px;
+        }
+
+    </style>
+    <div>
+       
+        <img class="blue" src="./blue.png" alt=""><br/>
+        <img class="yellow" src="./yellow.png" alt="">
+        <img class="dot" src="./dot.png" alt="">
+        <img class="text" src="./text.png" alt="">
+
+    </div>
+   
+
+</body>
+</html>
